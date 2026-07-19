@@ -1,3 +1,13 @@
+# Compile the tests and run the via the `maven-surefire-plugin`:
+
+```shell
+$ mvn test
+
+# Run only one test class.
+$ mvn test \
+    -Dtest=TutorialAboutJava50ApplicationTests
+```
+
 # run the application from the command line with ... Maven
 
 ```shell

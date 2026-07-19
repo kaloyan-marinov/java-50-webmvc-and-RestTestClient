@@ -39,6 +39,10 @@
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
 
+		<!--
+		Spring Boot assumes you plan to test your application,
+		so it adds the necessary dependencies
+		-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-restclient-test</artifactId>
