@@ -18,7 +18,8 @@ src/test/java/com/github/tutorial_about_java_50/TutorialAboutJava50ApplicationTe
 # integration tests = full-stack tests
 src/test/java/com/github/tutorial_about_java_50/HttpRequestTest.java
 
-
+# the full Spring «application context» is started but without the server. (instead: a mock server environment)
+src/test/java/com/github/tutorial_about_java_50/TestingWebApplicationTest.java
 ```
 
 # run the application from the command line with ... Maven
