@@ -20,6 +20,9 @@ src/test/java/com/github/tutorial_about_java_50/HttpRequestTest.java
 
 # the full Spring «application context» is started but without the server. (instead: a mock server environment)
 src/test/java/com/github/tutorial_about_java_50/TestingWebApplicationTest.java
+
+# only the web layer rather than the whole [«application context»]
+src/test/java/com/github/tutorial_about_java_50/WebLayerTest.java
 ```
 
 # run the application from the command line with ... Maven
