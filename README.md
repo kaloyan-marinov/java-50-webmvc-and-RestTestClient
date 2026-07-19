@@ -22,7 +22,10 @@ src/test/java/com/github/tutorial_about_java_50/HttpRequestTest.java
 src/test/java/com/github/tutorial_about_java_50/TestingWebApplicationTest.java
 
 # only the web layer rather than the whole [«application context»]
+# (a) a controller class which has zero dependencies
 src/test/java/com/github/tutorial_about_java_50/WebLayerTest.java
+# (b) a controller class which has nonzero dependencies
+src/test/java/com/github/tutorial_about_java_50/WebMockTest.java
 ```
 
 # run the application from the command line with ... Maven
