@@ -8,6 +8,19 @@ $ mvn test \
     -Dtest=TutorialAboutJava50ApplicationTests
 ```
 
+# highlight the different categories/types of tests
+
+```
+# sanity-check tests
+src/test/java/com/github/tutorial_about_java_50/TutorialAboutJava50ApplicationTests.java
+src/test/java/com/github/tutorial_about_java_50/TutorialAboutJava50ApplicationTestsSmokeTest.java
+
+# integration tests = full-stack tests
+src/test/java/com/github/tutorial_about_java_50/HttpRequestTest.java
+
+
+```
+
 # run the application from the command line with ... Maven
 
 ```shell
