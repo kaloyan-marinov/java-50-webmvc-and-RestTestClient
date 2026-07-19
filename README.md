@@ -33,10 +33,13 @@ $ ./mvnw spring-boot:run
 ```
 
 (Either use a web browser or)
-Use another terminal window to ssue these HTTP request:
+Use another terminal window to ssue these HTTP requests:
 ```shell
 $ curl localhost:8080
 Hello, World
+
+$ curl localhost:8080/greeting
+[from GreetingService] Hello, World
 ```
 
 # build a single executable JAR file that contains all the necessary dependencies, classes, and resources and run that
@@ -52,4 +55,4 @@ java \
     -jar target/tutorial-about-java-50-0.0.1-SNAPSHOT.jar
 ```
 
-Issue the above-mentioned HTTP request (either via a web browser or via `curl`).
+Issue the above-mentioned HTTP requests (either via a web browser or via `curl`).
