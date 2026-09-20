@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 Notice that,
 unlike the `HomeController`,
 the following controller class is more realistic
-because it has nonzero dependencies.
+because it has nonzero «dependencies».
 */
 @RestController
 public class GreetingController {
@@ -15,7 +15,7 @@ public class GreetingController {
     private final GreetingService service;
 
     /*
-    Spring automatically injects the service dependency into the controller
+    The «Spring IoC container» automatically injects the service «dependency» into the controller
     (because of the constructor signature).
     */
     public GreetingController(GreetingService service) {
