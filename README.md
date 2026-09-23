@@ -36,7 +36,7 @@ $ ./mvnw spring-boot:run
 ```
 
 (Either use a web browser or)
-Use another terminal window to ssue these HTTP requests:
+Use another terminal window to issue these HTTP requests:
 ```shell
 $ curl localhost:8080
 Hello, World
